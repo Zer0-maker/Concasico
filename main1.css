@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background: black;
+    line-height: 1.6;
+    height: 100vh;
+    /*verflow: hidden;*/
+    
+}
+
+.container{
+    width: 100%;
+    height:100%;
+    /*erflow-y:scroll;*/
+    /*scroll-behavior: smooth;*/
+    
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-image: url(Fondo.png);
+    }
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: cornsilk;  
+}
+
+.navbar ul li a:hover {
+    color: black;
+                                                                                                                                                                                                                                                                                        
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    font-size: 4rem;
+    font-family: fantasy;
+    
+}
+
+section p {
+    font-size: 1.6rem;
+}
+
+section#home{
+    background:url('img/auto1.jpg') no-repeat center center/cover;
+}
+
+section#about{
+    background:url('img/6.png') no-repeat center center/cover;
+}
+
+section#galeria{
+    background:url('img/2.png') no-repeat center center/cover;
+}
+
+section#contact{
+    background:url(img/4.png) no-repeat center center/cover;
+}
+/*Cambio de pantalla*/
+
+@media screen and (max-width: 600px) {navbar.ul navabar.right,navbar.ul li{float: none;}
+}
+
+
+
+
+
